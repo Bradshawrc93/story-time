@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BookOpen, Home, User, Sparkles } from 'lucide-react';
+import { BookOpen, User, Sparkles } from 'lucide-react';
 import StoryGenerator from '../components/StoryGenerator';
 
 const Dashboard: React.FC = () => {

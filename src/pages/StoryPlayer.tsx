@@ -14,6 +14,9 @@ const StoryPlayer: React.FC = () => {
   const [currentPage, setCurrentPage] = useState(0);
   const [isReading, setIsReading] = useState(false);
 
+  // TODO: Use storyId to fetch story data from API
+  // For now, using mock data
+
   // Mock story data - replace with actual API call
   const mockStory: StoryPage[] = [
     {
